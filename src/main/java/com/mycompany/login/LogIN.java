@@ -4,7 +4,8 @@
 
 package com.mycompany.login;
 import java.util.Scanner;
-
+// Name Rakhumo Junior Kemorwe 
+// ST 10520371
 /**
  *
  * @author Student
@@ -30,7 +31,7 @@ public class LogIN {
      System.out.println("Enter Username: "); 
      String newUsername = input.nextLine();
      Regi.isUsernameused(newUsername);
-     return;
+     
     }
     
 }
