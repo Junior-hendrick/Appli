@@ -10,4 +10,5 @@
         <maven.compiler.release>25</maven.compiler.release>
         <exec.mainClass>com.mycompany.login.LogIN</exec.mainClass>
     </properties>
+    <name>App</name>
 </project>
