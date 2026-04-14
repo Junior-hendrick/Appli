@@ -13,9 +13,7 @@ import java.util.Scanner;
  * @author Student
  */
 public class Registration {
-    public void Registra (){
-        
-    }
+    
     Scanner input = new Scanner(System.in);
      public ArrayList<String> usernames = new ArrayList<>(); 
      public ArrayList<String> OldPasswords = new ArrayList<>();
@@ -68,13 +66,13 @@ public class Registration {
         
         return false; // Password does not already exists and is new 
     }
-   // Method to validate if the phone number is following the right format
+   // Method to validate password and is following the right format
     public boolean isValidPassword(String password){
-        // Code to make sure number has 10 digits and starts with a 0
+        // Code to make sure the password has 8 charcters
         if (password.length() <8){
             System.out.println("Password must be at least 8 characters long");
             return false;
-            // Check if entered characters are all numbers
+            // Check if entered characters 
         }
             if (!password.matches(".*[A-Z].*")){
                System.out.println("Password must contain at least 1 Uppercase Letter.");
